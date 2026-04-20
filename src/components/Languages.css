@@ -1,0 +1,47 @@
+.languages-section {
+  background: var(--bg2);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.languages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px 40px;
+}
+
+.lang-row { display: flex; flex-direction: column; gap: 8px; }
+
+.lang-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.lang-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.lang-name {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--text);
+  flex: 1;
+}
+.lang-pct {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text2);
+}
+
+.lang-track {
+  height: 4px;
+  background: var(--bg3);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.lang-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
