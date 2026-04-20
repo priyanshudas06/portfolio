@@ -1,10 +1,7 @@
-# priyanshudas06 — GitHub Portfolio
-
 A developer portfolio that auto-syncs with the GitHub API.  
 No backend. No database. Just your GitHub data, live.
 
-## Features
-
+Features
 - Auto-fetches profile, repos, stars, followers from GitHub API
 - Filterable project cards by language
 - Animated language skill bars
@@ -13,7 +10,7 @@ No backend. No database. Just your GitHub data, live.
 - Fully responsive
 - Deploys free on GitHub Pages
 
-## Getting Started
+Getting Started
 
 ````bash
 # 1. Clone or download this folder
@@ -58,7 +55,7 @@ const sorted = [
 ];
 ````
 
-## Deploy to GitHub Pages (Free)
+Deploy to GitHub Pages (Free)
 
 ```bash
 # 1. Build the project
@@ -79,28 +76,6 @@ Then go to your repo → Settings → Pages → set source to `gh-pages` branch.
 Your portfolio will be live at: `https://priyanshudas06.github.io/portfolio`
 
 **Pro tip:** Create a repo named `priyanshudas06.github.io` and deploy there — it becomes your root GitHub Pages URL and shows up on your GitHub profile automatically.
-
-## File Structure
-
-```
-portfolio/
-├── index.html
-├── vite.config.js
-├── package.json
-├── src/
-│   ├── main.jsx
-│   ├── App.jsx
-│   ├── index.css              # global dark theme
-│   ├── hooks/
-│   │   └── useGitHub.js       # all GitHub API logic
-│   └── components/
-│       ├── Navbar.jsx / .css
-│       ├── Hero.jsx / .css    # typewriter + avatar
-│       ├── Stats.jsx / .css   # count-up numbers
-│       ├── Projects.jsx / .css # filterable repo cards
-│       ├── Languages.jsx / .css # animated skill bars
-│       └── Footer.jsx / .css
-```
 
 ## GitHub API Rate Limits
 
