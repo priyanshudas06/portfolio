@@ -1,3 +1,5 @@
+# portfolio
+
 A developer portfolio that auto-syncs with the GitHub API.  
 No backend. No database. Just your GitHub data, live.
 
@@ -96,4 +98,4 @@ headers: {
 >
 > Then access it as `import.meta.env.VITE_GITHUB_TOKEN`.
 
-# portfolio
+
